@@ -1,0 +1,7 @@
+n=int(input())
+n_english=set(map(int,input.split()))
+m=int(input())
+n_french=set(map(int,input.split()))
+union_set = n_english.union(n_french)
+n_union = len(union_set)
+print(n_union)
