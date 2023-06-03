@@ -1,0 +1,1 @@
+print("YES") if len(set(input().split()))>4 else print("NO")
