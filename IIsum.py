@@ -1,5 +1,5 @@
 class Solution:
-    @staticmethod
+    
     def twoSum(numbers, target):
         left, right = 0, len(numbers) - 1
 
